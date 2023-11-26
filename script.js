@@ -25,7 +25,7 @@ function stopPlayingFrequency(key) {
 
 function generateScale() {
     const division = Math.min(document.getElementById('division').value, 31); // 最大31分割まで
-    const rootFrequency = 523.25; // A4の周波数
+    const rootFrequency = 440; // A4の周波数
     frequencies = [];
 
     for (let i = 0; i < division; i++) {
